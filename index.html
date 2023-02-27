@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&family=Tilt+Warp&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- navigation Bar  -->
+
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand">Weather APP</a>
+            <div class="d-flex">
+                <input class="form-control me-2" id="got1" type="search" placeholder="City to Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit" id="got2">Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Weather card -->
+    <div id="cardfinal">
+        <div class="con">
+            <div class="card" id="card">
+                <div class="sneaker">
+                    <div class="circle"></div>
+                    <img src="" id='img' alt="no data">
+                </div>
+                <div class="info">
+                    <h1 class="title head" id="temp2" style="display: inline;">Temprature</h1>
+                    <spam class="title head">°C</spam>
+                    <h3 class="title head" id="temp1">degree</h3>
+                    <div class="sizes tab">
+                        <spam class="sty" id="feels_like">feels_like</spam>
+                        <spam class="sty" id="humidity">humidity</spam>
+                        <spam class="sty" id="pressure">pressure</spam>
+                        <spam class="sty" id="visiblity">visiblity</spam>
+                        <spam class="sty" id="discription">discription</spam>
+                        <spam class="sty" id="wind_speed">wind speed</spam>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+    <script src="./style.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
