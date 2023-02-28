@@ -8,7 +8,7 @@ const sizes = document.querySelector('.sizes');
 const desc = document.querySelector('.info h3');
 
 
-container.addEventListener('mousemove',(e) => {
+container.addEventListener('mousemove' || 'touchmove',(e) => {
     // console.log(e.pageX);
     let xAxis = (window.innerWidth/2 - e.pageX) / 5;
     let yAxis = (window.innerHeight/2 - e.pageY) / 5;
