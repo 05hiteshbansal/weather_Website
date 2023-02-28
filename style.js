@@ -16,7 +16,7 @@ container.addEventListener('mousemove' || 'touchmove',(e) => {
 })
 
 //Animate IN
-container.addEventListener('mouseenter', e =>{
+container.addEventListener('mouseenter'|| 'touchend', e =>{
     card.style.transition = 'none';
 
     //POPOUT
@@ -29,7 +29,7 @@ container.addEventListener('mouseenter', e =>{
 })
 
 //Animate OUT
-container.addEventListener('mouseleave', e=>{
+container.addEventListener('mouseleave'|| 'touchend', e=>{
     card.style.transition = 'all 0.5s ease';
     card.style.transform = `rotateY(0deg) rotateX(0deg)`   
 
